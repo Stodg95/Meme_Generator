@@ -1,0 +1,91 @@
+* {
+  background-color: rgb(190, 206, 198);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px rgba(0, 0, 0, 2);
+  background-color: rgb(93, 53, 173);
+}
+
+#generate {
+  width: 150px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px rgba(0, 0, 0, 2);
+  background-color: rgb(162, 255, 0);
+  font-family: Impact;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+#top,
+#bottom,
+#image {
+  width: 50%;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: white;
+}
+
+.meme-img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  align-items: center;
+}
+
+#top {
+  margin-top: 10px
+}
+
+.meme {
+  position: relative;
+  display: block;
+  float: left;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  margin: 35px 10px;
+  width: 300px;
+  height: 418px;
+}
+
+.top-text,
+.bottom-text {
+  position: relative;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  background-color: black;
+  width: 300px;
+  height: 60px 
+}
+
+.bottom-text {
+  bottom: 5px;
+}
+
+.remove {
+  position: absolute;
+  top: 60px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  background-color: rgb(61, 61, 61);
+  color: black;
+  opacity: 0;
+  font-size: 100px;
+}
+
+.remove:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
